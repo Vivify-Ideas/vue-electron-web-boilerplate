@@ -1,0 +1,15 @@
+{
+  "name": "electron-vue",
+  "version": "0.0.0",
+  "description": "An electron-vue project",
+  "main": "electron.js",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "vue": "^2.1.0",
+    "vue-electron": "^1.0.0",
+    "vue-resource": "^1.0.3",
+    "vue-router": "^2.1.1"
+  },
+  "devDependencies": {},
+  "author": "Nikola Spalevic <nikola.s@vivifyideas.com>"
+}
