@@ -1,7 +1,6 @@
 <template>
   <div id="s">
-    <h2>Essential Links</h2>
-    <router-link to="/">Home</router-link>
+    <h2>{{ msg }}</h2>
     <router-view></router-view>
   </div>
 </template>

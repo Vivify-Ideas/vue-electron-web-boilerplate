@@ -2,6 +2,8 @@
 
 > Boilerplate for Electron and Web app, one codebase for different platforms.
 
+![vue-electron-web-boilerplate](http://i.imgur.com/CbZbeaU.jpg)
+
 ## Build Setup
 
 ``` bash

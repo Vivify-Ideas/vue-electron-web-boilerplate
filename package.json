@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "Electron and Web app boilerplate",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --config ./config/webpack.web.js --content-base app/dist/",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --config ./config/webpack.web.js --content-base app/dist/",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --config ./config/webpack.web.js",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --config ./config/webpack.web.js",
     "dev:electron": "node tasks/runner.js",
     "build:electron": "node tasks/release.js",
     "build:clean": "cross-env PLATFORM_TARGET=clean node tasks/release.js",
